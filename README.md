@@ -4,7 +4,7 @@ This tool will back up your games, and save files from your playdate to your com
 
 ## How to Use
 
-1. Download the right script for your system.
+1. [Download](https://github.com/nathnp/Playdate-Game-and-Save-Backup/releases) the right script for your system.
 
 	- Mac users, download the mac.zip file.
 	
