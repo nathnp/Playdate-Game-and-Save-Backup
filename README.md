@@ -19,7 +19,7 @@ This tool will back up your games, and save files from your playdate to your com
 3. Run the script `./PDBackup.sh` and choose if you want to back up just your saves, or games, or both.
 
 >[!TIP]
-> The default output will be a zip file, if you want a tar.gz, run `./PDBackup.sh -t`
+> The default output is a zip file, if you want a tar.gz, run `./PDBackup.sh -t`
 
 ## Scrip is Throwing Error
 
