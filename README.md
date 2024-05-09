@@ -16,7 +16,7 @@ This tool will back up your games, and save files from your playdate to your com
 
 	- You can do this by going to Settings -> System -> Reboot to Data Disk -> OK on your Playdate
 	
-3. Run the script `./PDBackup.sh`
+3. Run the script `./PDBackup.sh` and choose if you want to back up just your saves, or games, or both.
 
 ## Scrip is Throwing Error
 
