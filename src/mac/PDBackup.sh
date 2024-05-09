@@ -47,11 +47,20 @@ if [ $choice == "b" ]; then
 	
 fi
 
-printf "Tarballing Saves and Games\n"
-tar cf PDBackup$tdate.tar Playdate/
+if [ $1 == "-t" ]; then
 
-printf "Gziping tarball\n"
-gzip PDBackup$tdate.tar
+	printf "Tarballing files\n"
+	tar cf PDBackup$tdate.tar Playdate/
+	
+	printf "Gziping tarball\n"
+	gzip PDBackup$tdate.tar
+
+else
+	
+	printf "Zipping files\n"
+	zip -r PDBackup$tdate.zip Playdate/ 2>/dev/null 1>&2
+	
+fi
 
 rm -rf Playdate
 
