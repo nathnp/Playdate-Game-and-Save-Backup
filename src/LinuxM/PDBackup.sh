@@ -49,7 +49,7 @@ fi
 
 if [ $1 == "-t" ]; then
 
-	printf "Tarballing Saves and Games\n"
+	printf "Tarballing files\n"
 	tar cf PDBackup$tdate.tar Playdate/
 	
 	printf "Gziping tarball\n"
