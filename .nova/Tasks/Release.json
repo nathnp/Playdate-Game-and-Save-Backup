@@ -1,0 +1,12 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "cd src\/LinuxM\nzip -r LinuxM.zip PDBackup.sh\nmv LinuxM.zip ..\/..\n\ncd ..\/LinuxR\n\nzip -r LinuxR.zip PDBackup.sh\nmv LinuxR.zip ..\/..\n\ncd ..\/mac\n\nzip -r mac.zip PDBackup.sh\nmv mac.zip ..\/.."
+    },
+    "clean" : {
+      "enabled" : true,
+      "script" : "rm LinuxM.zip LinuxR.zip mac.zip"
+    }
+  }
+}
